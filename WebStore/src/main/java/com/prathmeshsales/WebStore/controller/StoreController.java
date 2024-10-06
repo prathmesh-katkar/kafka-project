@@ -56,12 +56,12 @@ public class StoreController {
 
 		OrderDetails orderDetails = new OrderDetails();
 
-		orderDetails.setUserName("Prathmesh Katkar");
-		orderDetails.setMobileNumber("7057257726");
+		orderDetails.setUserName("Jonny Depth");
+		orderDetails.setMobileNumber("1234****");
 		orderDetails.setUserId(UUID.randomUUID().toString());
 		orderDetails.setTime(LocalDateTime.now());
 		orderDetails.setProduct(product);
-		orderDetails.setMailID("katkarprathm2@gmail.com");
+		orderDetails.setMailID("abcbcbc***@gmail.com");
 
 		log.info("Order Details -> " + orderDetails.toString());
 //		log.info("Qty -> " + product.getQty());
